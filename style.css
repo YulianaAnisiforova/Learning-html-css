@@ -1,0 +1,28 @@
+.mainHeader{
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(168, 10, 92);
+    text-shadow: 5px 5px 10px rgb(221, 33, 155);
+    border: 1px solid rgb(168, 10, 92);
+    background-color: rgb(244, 210, 232);
+    box-shadow: 5px 5px 10px rgb(221, 33, 155);
+    border-radius: 40px 0 40px 0;
+}
+
+.list{
+    text-align: center;
+    line-height: 150px;
+    color: rgb(168, 10, 92);
+}
+
+.listMember{
+    border: 1px solid rgb(168, 10, 92);
+    background-color: rgb(244, 210, 232);
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
