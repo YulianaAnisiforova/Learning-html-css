@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(251, 253, 199);
+}
+
+.mainHeader {
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(168, 10, 92);
+    text-shadow: 5px 5px 10px rgb(221, 33, 155);
+    border: 1px solid rgb(168, 10, 92);
+    background-color: rgb(244, 210, 232);
+    box-shadow: 5px 5px 10px rgb(221, 33, 155);
+    border-radius: 40px 0 40px 0;
+}
+
+.fact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: rgb(168, 10, 92);
+}
+
+img {
+    height: 800px;
+    margin: auto;
+    display: block;
+}
+
+.buttonBar {
+    margin: 20px;
+}
+
+.buttonMenu {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(244, 210, 232);
+    width: 33%;
+    cursor: pointer;
+    line-height: 150px;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.buttonPrev {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(244, 210, 232);
+    width: 33%;
+    cursor: pointer;
+    line-height: 150px;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.buttonNext {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(244, 210, 232);
+    width: 33%;
+    cursor: pointer;
+    line-height: 150px;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.link {
+    color: rgb(168, 10, 92);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
+.buttonMenu:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.buttonPrev:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.buttonNext:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
